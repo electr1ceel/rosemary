@@ -22,7 +22,7 @@ Rosemary is designed by a hacker to defend against hackers. He knows what hacker
 
 ### NanoPI R6S
 
-- 8 cores ARM CPU  
+- 8 cores ARM CPU (Quad-core ARM Cortex™-A76 & Quad-core ARM Cortex™-A55)  
 - 8GB RAM  
 - 32GB storge  
 - 3 network interfaces (2 x 2.5Gbps, 1 x 1Gbps)   
@@ -37,7 +37,7 @@ A 16GB SD Card (at least Class 10) is required for the installation.
 
 Download the [SD Card image (467MB)](https://drive.google.com/file/d/17DbJ0On05b1-672aO-Zq1PLGT5ljAP4F/view?usp=sharing) at Google Drive.
 
-Download [Balena Etcher](https://www.balena.io/etcher) at its official site and burn to the SD Card.
+Download [Balena Etcher](https://www.balena.io/etcher) at its official site and burn the image to the SD Card.
 
 ### Checksum
 
