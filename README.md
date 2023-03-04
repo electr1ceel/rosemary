@@ -46,13 +46,13 @@ Rosemary is designed by a hacker to defend against hackers. He knows what hacker
 
 A 16GB SD Card (at least Class 10) is required for the installation.  
 
-```
-git clone https://github.com/samiux/rosemary
-```
+Download the [SD Card image (467MB)](https://drive.google.com/file/d/17DbJ0On05b1-672aO-Zq1PLGT5ljAP4F/view?usp=sharing) at Google Drive.
+
 Download [Balena Etcher](https://www.balena.io/etcher) at its official site and burn to the SD Card.
 
 ### Checksum
 
+sha256 d757b5a84571d6fb8862f3496e3923988e104be2b38ca14891fcad9002846081  rk3588-sd-rosemary-5.10-arm64-20230304.zip
 sha256 a7e9d911a9298e677cbfd0dffbfa4a497f4f346056374ef4d0a765ab5aab5fe1  rk3588-sd-rosemary-5.10-arm64-20230304.img
 
 ## DEPLOYMENT  
@@ -106,7 +106,7 @@ Rosemary can be turned off and it is not required to operate 24/7.  The update w
 There are over 40,000 rules in Rosemary and they are all free of charge.  The number of rules are increasing.    
 
 ### Do you recommend to access Rosemary via SSH in internet?
-For security purpose, it is NOT recommended to connect Rosemary via SSH in internet.  However, you may connect Rosemary via SSH in intranet.    
+For security purpose, it is NOT recommended to connect Rosemary via SSH in internet.  However, you may connect Rosemary via SSH in intranet.  The username and password are "rosemary".    
 
 ### Can Rosemary decrypt the SSL/TLS traffic?
 Rosemary cannot decrypt the SSL/TLS traffic well.  However, it can handle a limited SSL/TLS traffic flow.  Therefore, it is not ideal for using it as Web Application Firewall (WAF).  For example, Rosemary can detect and drop self signed SSL/TLS certificate traffic and etc.  
