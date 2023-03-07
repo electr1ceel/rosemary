@@ -28,6 +28,9 @@ Rosemary is designed by a hacker to defend against hackers. He knows what hacker
 - 3 network interfaces (2 x 2.5Gbps, 1 x 1Gbps)   
 - Max. power consumption 5W, fanless, no noise  
 - Max. WAN traffic flow up to 2.5Gbps  
+- 1 HDMI 2.0  
+- 1 USB 3.0 Type-A, 1 USB 2.0 Type-A  
+- 1 SD Card Slot  
 - Slightly larger than a credit card  
 - 96.5mm (L) x 68mm (W) x 30mm (H)   
 
@@ -45,8 +48,8 @@ Download [Balena Etcher](https://www.balena.io/etcher) at its official site and 
 
 ### Checksum
 
-sha256 4dbdc489f50aed0e1cf6cac6126041c20babaac87eb5992be8bd2d715a125991  rk3588-sd-rosemary-5.10-arm64-20230305.zip  
-sha256 b3945c990a77a958714c3376c2bc85b7771cf819814683e8f3f5bff584462457  rk3588-sd-rosemary-5.10-arm64-20230305.img  
+sha256 f1b8593d0e189f26bc59d8cd8830099c8e4562ba8d4e1156326b99cdf3fed429  rk3588-r6s-sd-rosemary-6.0.10-5.10-arm64-20230307.zip  
+sha256 e9ee789e9f298859499b14afdfa1738597d311f323c88f6d54834785304798ad  rk3588-r6s-sd-rosemary-6.0.10-5.10-arm64-20230307.img  
 
 ## LICENSE
 
@@ -83,7 +86,7 @@ The following is the recommended connection method of Rosemary.  However, you ca
 WIFI Router (unused)      |                        |                |
                           |                        |                |
                           +------------------------+                +------- PCs & Laptops
-                                    (LAN2)
+                            (LAN2 to Switch's LAN)
 
 ```
 
@@ -120,6 +123,7 @@ Yes, anti-virus is required.  You are also advised to install the following add-
 
 ## YOUTUBE REVIEW
 
+- [FriendlyElec NanoPi R6S Official Site](https://www.friendlyelec.com/index.php?route=product/product&product_id=289)  
 - [The New Nanopi R6s Sbc: A Powerful Arm Board With A Huge Performance Edge Over The Pi4!](https://www.youtube.com/watch?v=CfaWB9q4xOI)  
 - [NanoPi R6S - Unboxing and Quick Overview](https://www.youtube.com/watch?v=-rlJ_80d01U)  
 - [NanoPi R6S Linux Review - Rockchip RK3588S with dual 2.5GbE + 1GbE](https://www.youtube.com/watch?v=gCBNWGhp8gM)  
