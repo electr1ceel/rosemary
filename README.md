@@ -133,5 +133,5 @@ Yes, anti-virus is required.  You are also advised to install the following add-
 
 ## SUPPORT
 
-Discord @ samiux#3445  
+Discord @samiux#3445  
  
