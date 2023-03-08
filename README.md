@@ -135,3 +135,6 @@ Yes, anti-virus is required.  You are also advised to install the following add-
 
 Discord @samiux#3445  
  
+## SEE ALSO
+
+- [Garland 茼蒿 - Intrusion Detection and Prevention System (NanoPi R5S)](https://github.com/samiux/garland)  
