@@ -113,7 +113,7 @@ The following is the recommended connection method of Rosemary.  However, you ca
                                                                    
                                                                     
             (WAN)          (LAN1 to WIFI AP's WAN)                  
-Modem with ----------- Rosemary --------------- WIFI AP ------------+------- PCs & Laptops
+Modem with ----------- Rosemary --------------- WIFI AP -------------------- PCs & Laptops
 WIFI Router (unused)      |                        |               
                           |                        |               
                           +------------------------+              
