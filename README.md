@@ -182,6 +182,7 @@ Yes, anti-virus is required.  You are also advised to install the following add-
 - Avast Online Security & Privacy  
 - MalwareAI Browser Security  
 - VT4Browsers  
+- Tampermonkey  
 
 ## 常问问题
 
@@ -217,6 +218,7 @@ Yes, anti-virus is required.  You are also advised to install the following add-
 - Avast Online Security & Privacy  
 - MalwareAI Browser Security  
 - VT4Browsers  
+- Tampermonkey  
 
 ## KNOWN ISSUES
 
