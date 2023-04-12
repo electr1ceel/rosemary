@@ -249,4 +249,5 @@ Discord @samiux#3445
 - [Rosemary IDPS and 4K Video playback](https://youtu.be/w4cVVp3t23o)  
 - [平价适合家用的防御入侵系统](https://samiux.github.io/nanopi.html)  
 - [使用 Rosemary IPS 和 Nano Pi R6S 轻松保护您的家庭网络安全](https://samiux.github.io/rosemary_ips.html)  
-- [Rosemary IDPS Dashboard Beta](https://youtu.be/wm0pQjfdeGs)  
+- [Rosemary IDPS Dashboard Beta 1](https://youtu.be/wm0pQjfdeGs)  
+- [Rosemary IDPS Dashboard Beta 2](https://youtu.be/BbaheXssJfM)  
