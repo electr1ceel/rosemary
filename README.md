@@ -61,7 +61,7 @@ In summary, Rosemary Intrusion Detection and Prevention System is an effective, 
 
 ## IDPS ENGINE
 
-- Suricata 6.0.10  
+- Suricata 6.0.11  
 
 ## INSTALLATION
 
