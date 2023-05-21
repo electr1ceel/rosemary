@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# check if internet connect is available
+ping -c1 google.com 2>/dev/null 1>/dev/null
+if [ "$?" -ne 0 ]
+then
+	# for China users only
+	ping -c1 baidu.com 2>/dev/null 1>/dev/null
+	if [ "$?" -ne 0 ]
+	then
+		echo "Sorry, you cannot access internet."
+		sudo /etc/croissants/conf.d/reset-config
+		sudo netplan apply
+		sleep 10
+		sudo /etc/croissants/conf.d/auto_nat_config
+		sudo netplan apply
+		#exit 1
+	fi
+fi
+
+sudo /etc/croissants/conf.d/set_timezone
+sudo systemctl start logrotate.service
+sudo systemctl start logrotate.timer
+sudo nsm_cleanlogs
+sleep 10
+sudo /etc/croissants/conf.d/auto_update
+sleep 180
+sudo nsm_rules_update
+sleep 300
+sudo apt update
+sudo DEBIAN_FRONTEND=noninteractive apt -y upgrade
+sudo apt autoremove
+sudo apt autoclean
