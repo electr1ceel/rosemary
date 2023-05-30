@@ -83,6 +83,13 @@ then
 fi
 
 cd /tmp
+wget https://github.com/samiux/update-croissants/raw/master/rules/sha256_iocs.list -O /tmp/sha256_iocs.list
+if [ -s /tmp/sha256_iocs.list ]
+then
+	sudo cp /tmp/sha256_iocs.list /var/lib/suricata/rules/
+fi
+
+cd /tmp
 wget https://github.com/samiux/update-croissants/raw/master/rules/phishings.txt -O /tmp/phishings.txt
 if [ -s /tmp/phishings.txt ]
 then
@@ -148,6 +155,7 @@ sudo rm /tmp/domains_iocs.list
 sudo rm /tmp/domains.txt
 sudo rm /tmp/domains_phishing.list
 sudo rm /tmp/phishings.txt
+sudo rm /tmp/sha256_iocs.list
 
 cd ~
 
